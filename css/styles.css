@@ -1,0 +1,108 @@
+/* цвет заголовков: #212121;
+основной цвет текста: #757575;
+белый: #FFFFFF;
+акцент: #2196F3 */
+
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primery-white-color);
+  color: var(--primery-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo .fst {
+  color: #000000;
+}
+
+.logo .snd {
+  color: var(--primery-white-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts-nav .link {
+  color: var(--primery-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.section-title.invisible {
+  opacity: 0;
+}
+
+.hero-title {
+  color: var(--primery-white-color);
+}
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+.team .title {
+  color: var(--title-text-color);
+}
+
+.projects .title {
+  color: var(--title-text-color);
+}
+
+.btn-primery {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-bg-color);
+  color: var(--title-text-color);
+}
+
+/* footer styles */
+.address-link {
+  color: var(--primery-white-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
